@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Box Model</title>
+        <style>
+            #divMain{
+                display: flex;
+                
+                align-items: center;
+            }
+            #div1{
+                display:inline-block;
+                width: 400px;
+                height: auto;
+                margin : 20px;
+                text-align: center;
+                border-radius: 10px;
+                box-shadow: 10px 10px 5px rgb(212, 211, 211);
+
+            }
+            #div2{
+                display:inline-block;
+                width: 400px;
+                height: auto;
+                margin:20px;
+                text-align: center;
+                border-radius: 10px;
+                box-shadow: 10px 10px 5px rgb(212, 211, 211);
+                
+            }
+             .img1{
+                display: inline-block;
+                height:100px;
+                width:100px;
+
+            }
+            p {
+                display: inline-block;
+                width: 200px;
+                height:100px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="divMain">
+        <div id="div1">
+            <img class="img1" src="html5.png" alt="HtmlImage">
+            <p>Hypertext Markup Language (HTML) is the standard markup language for documents designed to be displayed in a web browser.</p>
+
+        </div>
+        <div id="div2">
+            <img class = "img1" src="css3.jpg" alt="CssImage">
+            <p>Cascading Style Sheets (CSS) is a style sheet language used for specifying the presentation and styling of a document written in a markup language such as HTML or XML.</p>
+        </div>
+        </div>
+
+    </body>
+</html>
